@@ -1,0 +1,266 @@
+* {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container {
+  background-color: #eae7dc;
+  padding: 10px;
+}
+#All {
+  background-color: #eae7dc;
+  margin: 5px;
+  padding: 3px;
+}
+
+.wrapper {
+  display: grid;
+  border: 1px solid #e85a4f;
+  box-shadow: 5px 5px 0 0 grey;
+  margin: 35px;
+  background-color: #d8c3a5;
+}
+.cover {
+  background-color: #8e8d8a;
+}
+
+.wrapper .heading {
+  text-align: left;
+  padding-bottom: 2vw;
+  padding-top: 2vw;
+  margin: 0 1vw 0 1vw;
+}
+.cover img {
+  width: 35vw;
+  height: auto;
+  float: left;
+  margin: 18px;
+  padding: 1px;
+  border: 1px solid #e85a4f;
+}
+.cover img:hover {
+  transform: scale(1.1);
+}
+.wrapper .cover p {
+  font-size: 2vw;
+  text-align: justify;
+  background-color: #d8c3a5;
+  line-height: 5vw;
+  padding: 25px;
+  margin: 0;
+  border: 1px solid #e85a4f;
+}
+
+.work {
+  margin: 0 30px 0 30px;
+}
+.education {
+  margin: 0 30px 0 30px;
+}
+.above {
+  margin: 0 30px 0 30px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0.25vw;
+  padding: 0.5vw;
+}
+.table th {
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: 5px 5px 0 0 grey;
+}
+
+h1 {
+  text-align: center;
+  background-color: #e85a4f;
+  border: 1px solid #d8c3a5;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 2vw;
+  border-radius: 10px;
+  box-shadow: 5px 5px 0 0 #8e8d8a;
+  font-size: 5vw;
+}
+h6 {
+  text-align: center;
+  background-color: #e85a4f;
+  border: 1px solid white;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 10px;
+  padding: 2vw;
+  border-radius: 10px;
+  box-shadow: 5px 5px 0 0 grey;
+  font-size: 4vw;
+}
+.education .flex ul {
+  border: 1px solid #e85a4f;
+  background-color: #d8c3a5;
+  box-shadow: 5px 5px 0 0 grey;
+}
+.others .flex {
+  border: 1px solid #e85a4f;
+  background-color: #d8c3a5;
+  box-shadow: 5px 5px 0 0 grey;
+}
+
+.work .flex ul {
+  border: 1px solid #e85a4f;
+  background-color: #d8c3a5;
+  box-shadow: 5px 5px 0 0 grey;
+}
+.flex li {
+  font-size: 3vw;
+  padding: 0 0 0 1vw;
+}
+.flex p {
+  font-size: 2.5vw;
+  text-align: justify;
+  padding: 1vw;
+}
+h2 h4 h5 {
+  font-size: 1vw;
+}
+h3 {
+  font-size: 2vw;
+}
+
+@media screen and (max-width: 1023px) and (min-width: 720px) {
+  #All {
+    margin: 20px;
+    padding: 20px;
+  }
+  h1 {
+    font-size: 2vw;
+    line-height: 0.5vw;
+    margin-top: 2vw;
+  }
+  h2,
+  h4,
+  h5 {
+    font-size: 1.2vw;
+  }
+  h3 {
+    font-size: 1.2vw;
+  }
+  h6 {
+    font-size: 1.1vw;
+    padding: 1vw;
+  }
+  .wrapper {
+    display: flex;
+  }
+  .wrapper .cover p {
+    font-size: 1.8vw;
+    text-align: justify;
+    border: 1px solid #e85a4f;
+    background-color: #d8c3a5;
+    box-shadow: 5px 5px 0 0 grey;
+    margin: 0;
+    padding: 5vw;
+    line-height: 3vw;
+  }
+  .cover img {
+    width: 15vw;
+    height: auto;
+    border: 1px solid #e85a4f;
+  }
+
+  /*flex section*/
+
+  .flex {
+    border: 1px solid #e85a4f;
+    background-color: #ddd;
+    box-shadow: 5px 5px 0 0 grey;
+    flex-basis: 24.5%;
+  }
+  .flex li {
+    font-size: 1.2vw;
+  }
+  .flex p {
+    font-size: 1vw;
+  }
+  .education .flex {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .work .flex {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .others {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #All {
+    margin: 20px;
+    padding: 20px;
+  }
+  h1 {
+    font-size: 2vw;
+    line-height: 0.5vw;
+    margin-top: 2vw;
+  }
+  h2,
+  h4,
+  h5 {
+    font-size: 1.2vw;
+  }
+  h3 {
+    font-size: 1.2vw;
+  }
+  h6 {
+    font-size: 1.1vw;
+    padding: 1vw;
+  }
+  .wrapper {
+    display: flex;
+  }
+  .wrapper .cover p {
+    font-size: 1.8vw;
+    text-align: justify;
+    border: 1px solid #e85a4f;
+    background-color: #d8c3a5;
+    box-shadow: 5px 5px 0 0 grey;
+    margin: 0;
+    padding: 5vw;
+    line-height: 3vw;
+  }
+  .cover img {
+    width: 15vw;
+    height: auto;
+    border: 1px solid #e85a4f;
+  }
+
+  /*flex section*/
+
+  .flex {
+    border: 1px solid #e85a4f;
+    background-color: #ddd;
+    box-shadow: 5px 5px 0 0 grey;
+    flex-basis: 24.5%;
+  }
+  .flex li {
+    font-size: 1.2vw;
+  }
+  .flex p {
+    font-size: 1vw;
+  }
+  .education .flex {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .work .flex {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .others {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
